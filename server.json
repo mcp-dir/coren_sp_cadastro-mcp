@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/coren_sp_cadastro-mcp",
+  "title": "Conselho Regional de Enfermagem SP: Cadastro",
+  "description": "Conselho Regional de Enfermagem SP: Cadastro, official-source lookup. Platform-hosted, pay per query",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/coren_sp_cadastro-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_coren_sp_cadastro"
+    }
+  ]
+}
